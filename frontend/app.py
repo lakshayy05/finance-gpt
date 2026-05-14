@@ -12,8 +12,7 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv(override=False)
-BACKEND = os.getenv("BACKEND_URL", "https://finance-gpt-7aug.onrender.com").rstrip("/")
-
+BACKEND = os.getenv("BACKEND_URL", "https://finance-gpt-uea6.onrender.com").rstrip("/")
 st.set_page_config(page_title="FinanceGPT", page_icon="💚", layout="wide")
 
 # ══════════════════════════════════════════════════════════════════
