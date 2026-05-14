@@ -11,5 +11,6 @@ pdfplumber
 python-dotenv
 pydantic
 yfinance
-pytzsupabase
+pytz
+supabase
 requests
